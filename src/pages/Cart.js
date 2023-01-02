@@ -3,9 +3,7 @@ import ProductCard from "../components/ProductCard";
 import { useProducts } from "../context/ProductProvider";
 
 const Cart = () => {
-  const {
-    state: { cart, loading, error },
-  } = useProducts();
+  const {: { cart, loastateding, error },} = useProducts();
 
   let content;
 
